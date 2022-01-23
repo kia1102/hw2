@@ -15,7 +15,7 @@ auto compareByValueBytes = [](const std::vector<std::string> &ip1, const std::ve
 
                           if (a != b)
                           {
-                              return a > b;
+                              return a < b;
                           }
                       }
                       return false;
